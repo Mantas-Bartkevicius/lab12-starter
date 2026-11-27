@@ -2,14 +2,14 @@
 
 // LAB12: one small application for Docker, Kubernetes, HPA and Helm.
 // Student task (V2): change the text below, rebuild the image and push tag v2.
-const IMAGE_MESSAGE = 'Sis tekstas yra idetas i Docker atvaizda V1.';
+const IMAGE_MESSAGE = 'V1 - Šis tekstas yra įdėtas į Docker atvaizdą.';
 
 const http = require('node:http');
 const os = require('node:os');
 
 const PORT = Number(process.env.PORT || 8080);
-const OWNER = process.env.APP_OWNER || 'Studentas';
-const TITLE = process.env.APP_TITLE || 'Mano Kubernetes laboratorija';
+const OWNER = process.env.APP_OWNER || 'Studentas: Mantas Bartukas';
+const TITLE = process.env.APP_TITLE || 'Mano Kubernetes Darbas';
 const VERSION = process.env.APP_VERSION || 'V1';
 const requestedColor = process.env.APP_COLOR || '#2563eb';
 const COLOR = /^#[0-9a-fA-F]{6}$/.test(requestedColor) ? requestedColor : '#2563eb';
