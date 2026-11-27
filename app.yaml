@@ -17,15 +17,15 @@ spec:
     spec:
       containers:
         - name: lab12-web
-          image: PAKEISKITE_ACR.azurecr.io/lab12-web:v1
+          image: acrlab12rx6754wyqla2c.azurecr.io/lab12-web:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
             - name: APP_OWNER
-              value: "VARDAS_PAVARDE"
+              value: "Mantas Bartukas"
             - name: APP_TITLE
-              value: "Mano AKS laboratorija"
+              value: "Mano AKS keptuvė"
             - name: APP_VERSION
               value: "V1"
             - name: APP_COLOR
