@@ -1,0 +1,6 @@
+apiVersion: v2
+name: lab12-web
+description: LAB12 - Helm release for the SAME Node.js web application
+version: 0.1.0
+appVersion: "1.0"
+type: application

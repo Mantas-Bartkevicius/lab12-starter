@@ -1,0 +1,15 @@
+# Student: set your registry login server and owner.
+image:
+  repository: PAKEISKITE_ACR.azurecr.io/lab12-web
+  tag: v1
+
+app:
+  owner: VARDAS_PAVARDE
+  title: Mano AKS laboratorija
+  version: V1
+  color: "#2563eb"
+
+hpa:
+  minReplicas: 2
+  maxReplicas: 5
+  targetCpu: 50

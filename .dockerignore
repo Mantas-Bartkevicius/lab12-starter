@@ -1,0 +1,5 @@
+helm/
+*.zip
+*.docx
+*.md
+.git/
